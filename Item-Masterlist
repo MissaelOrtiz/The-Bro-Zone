@@ -2,8 +2,18 @@
   `name`:`Name`,
   `id`:`ID num`,
   `type`:`Type`,
-  `traits :`Traits`
+  `traits : {
+    `Traits`,`Traits},
   `rarity`:`Rarity`,
   `description`:`Description`
 },
 
+{
+  `name`:`Ring of Mimic Cry`,
+  `id`:`1`,
+  `type`:`Item`,
+  `traits : {
+    `Divination`, `Invested`, `Magical`},
+  `rarity`:`Uncommon`,
+  `description`:`A polished wooden ring with metal bands inlaid; a small image of a lock burned into the face of the ring. While wearing the ring, you may cast the Locate spell at 3rd level once per week as a spontaneous occult spell, but only to find Mimics.`
+},
