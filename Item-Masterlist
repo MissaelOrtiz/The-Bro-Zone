@@ -1,5 +1,6 @@
 {
   `name`:`Name`,
+  `id`:`ID num`,
   `type`:`Type`,
   `traits :`Traits`
   `rarity`:`Rarity`,
