@@ -1,0 +1,15 @@
+body {
+    display: flex;
+}
+
+div {
+    flex-wrap: nowrap;
+    align-items: center;
+
+}
+
+span {
+    align-items: center;
+    border: 5px solid red;
+    margin: 70px;
+}
