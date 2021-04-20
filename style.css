@@ -8,12 +8,14 @@ div {
 
 }
 
-span {
-    align-items: center;
-    border: 5px solid red;
-    margin: 70px;
-}
+
 
 section {
     margin: 70px;
+}
+
+#randomResult {
+    width: 100px;
+    height: 100px;
+    border: black solid 5px;
 }
