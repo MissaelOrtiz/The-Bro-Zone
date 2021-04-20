@@ -1,18 +1,18 @@
 body {
     display: flex;
-}
-
-div {
-    flex-wrap: nowrap;
+    justify-content: center;
+    
+    height: 700px;
     align-items: center;
-
 }
-
 
 
 section {
-    margin: 70px;
+    display: flex;
+    align-items: center;
 }
+
+
 
 #randomResult {
     width: 100px;

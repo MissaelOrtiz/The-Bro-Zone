@@ -29,7 +29,7 @@ export const magicItems = [
   rarity: 'Unique',
   description: 'The entirety of the blade of this +2 Greater Striking Wounding Longsword is made of a crimson, polished crystalline material; its hilt made of cold iron that perpetually feels cool to the touch and seemingly grasps at the blade hungrily. If Bautor is used to critically strike a creature that is bleeding, you may forgo dealing double damage and cast Vampiric Touch at 6th level on the target (DC 30 FORT). When invested, Bautor grants the ability to cast 4th level Pest Form as an innate occult spell at will, but only to turn into a bat.'
 },
- 
+
 {
   name:'Ring of Feather Fall',
   id: 3,
