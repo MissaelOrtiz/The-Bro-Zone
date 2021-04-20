@@ -1,11 +1,11 @@
  /* {
-  'name':'Name',
-  'id': 'ID num',
-  'type': 'Type',
-  'level': 'Level num',
-  'traits' : ['Trait', 'Trait'],
-  'rarity': 'Rarity',
-  'description': 'Description'
+  name: '',
+  id: ,
+  type: '',
+  level: ,
+  traits: ['', 'Magical'],
+  rarity: '',
+  description: ''
 }, */
 
 
