@@ -19,3 +19,50 @@ section {
     height: 100px;
     border: black solid 5px;
 }
+
+.hidden {
+    display: none;
+}
+
+.item {
+    width: 580px;
+    height: 400px;
+    background-image: url('./assets/placeholder.jpg');
+    
+}
+
+.item-square {
+    justify-content: baseline;
+    align-items: baseline;
+    
+}
+
+@keyframes stretch {
+    0% {
+    transform: scale(.3);
+    
+    border-radius: 100%;
+    }
+    50% {
+        transform: scale(.5)
+    }
+    100% {
+    transform: scale(1.0);
+
+    }
+}
+
+.spin {
+    height: 400px;
+    width: 580px;
+    margin: 0 auto;
+    background-color: red;
+    animation-name: stretch;
+    animation-duration: 3.0s; 
+    animation-timing-function: ease-out; 
+    animation-delay: 0;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
+    animation-play-state: running;
+}
