@@ -1,11 +1,11 @@
  /* {
-  name: '',
-  id: ,
-  type: '',
-  level: ,
-  traits: ['', 'Magical'],
-  rarity: '',
-  description: ''
+  name:,
+  id:,
+  type:,
+  level:,
+  traits: [,'Magical'],
+  rarity:,
+  description:,
 }, */
 
 
@@ -64,10 +64,20 @@ export const magicItems = [
   name:'Campfire Bead',
   id: 6,
   type: 'necklace',
-  level: '2',
+  level: 2,
   traits: ['Conjuration', 'Invested', 'Magical'],
   rarity: 'Common',
   description: 'A simple leather string holds a spherical fire opal which shifts like the flames of a fire. The campfire bead can be activated with two interact actions to create a small campfire in an empty space adjacent to you. This fire can be dismissed with a single action with the command trait. After 8 hours or being dismissed, whichever comes first, the fire disapears and the fire opal looses its color and cannot be activated again for twice the amount of time that the fire was active. This fire can be put out with sufficient effort, such as pouring a large amount of water onto it dismissing it.'
+},
+ 
+{
+  name: 'Lizard of Warding',
+  id: 7,
+  type: 'necklace',
+  level: 3,
+  traits: ['Abjuration','Magical','Talisman'],
+  rarity: 'Common',
+  description: 'A desicated lizard treated with occult reagents. While worn, the lizard provides you damage resistance 10 to all damage when you are critically hit by a strike, after which the lizard crumbles into dust.',
 },
 ]
 
